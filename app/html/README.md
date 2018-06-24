@@ -11,9 +11,10 @@ Storybook runs outside of your app.
 So you can develop UI components in isolation without worrying about app specific dependencies and requirements.
 
 ## Getting Started
+(**note:** To get the alpha version of Storybook for HTML to run correctly you will need to install an alpha version of `cli` (included in the commands below).)
 
 ```sh
-npm i -g @storybook/cli
+npm i -g @storybook/cli@v4.0.0-alpha.10
 cd my-app
 getstorybook --html
 ```
